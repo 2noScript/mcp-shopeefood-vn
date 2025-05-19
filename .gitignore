@@ -1,0 +1,7 @@
+.venv
+*/.venv
+assets/input
+**/.DS_Store
+__pycache__/
+**/__pycache__/
+.env

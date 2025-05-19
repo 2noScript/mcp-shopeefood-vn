@@ -1,0 +1,793 @@
+- id: 217
+  name: TP. HCM
+  slug: ho-chi-minh
+  districts:
+    - name: Quận 1
+      district_id: 1
+      slug: quan-1
+    - name: Gò Vấp
+      district_id: 2
+      slug: quan-go-vap
+    - name: Quận 2
+      district_id: 4
+      slug: quan-2
+    - name: Quận 3
+      district_id: 5
+      slug: quan-3
+    - name: Quận 4
+      district_id: 6
+      slug: quan-4
+    - name: Quận 5
+      district_id: 7
+      slug: quan-5
+    - name: Quận 6
+      district_id: 8
+      slug: quan-6
+    - name: Quận 7
+      district_id: 9
+      slug: quan-7
+    - name: Quận 8
+      district_id: 10
+      slug: quan-8
+    - name: Quận 9
+      district_id: 11
+      slug: quan-9
+    - name: Quận 10
+      district_id: 12
+      slug: quan-10
+    - name: Quận 11
+      district_id: 13
+      slug: quan-11
+    - name: Quận 12
+      district_id: 14
+      slug: quan-12
+    - name: Bình Thạnh
+      district_id: 15
+      slug: quan-binh-thanh
+    - name: Tân Bình
+      district_id: 16
+      slug: quan-tan-binh
+    - name: Phú Nhuận
+      district_id: 17
+      slug: quan-phu-nhuan
+    - name: Bình Tân
+      district_id: 18
+      slug: quan-binh-tan
+    - name: Tân Phú
+      district_id: 19
+      slug: quan-tan-phu
+    - name: Thành Phố Thủ Đức
+      district_id: 693
+      slug: quan-thu-duc
+    - name: Củ Chi
+      district_id: 694
+      slug: cu-chi
+    - name: Hóc Môn
+      district_id: 695
+      slug: hoc-mon
+    - name: Bình Chánh
+      district_id: 696
+      slug: binh-chanh
+    - name: Cần Giờ
+      district_id: 698
+      slug: can-gio
+    - name: Nhà Bè
+      district_id: 699
+      slug: huyen-nha-be
+
+- id: 218
+  name: Hà Nội
+  slug: ha-noi
+  districts:
+    - name: Ba Đình
+      district_id: 20
+      slug: quan-ba-dinh
+    - name: Cầu Giấy
+      district_id: 21
+      slug: quan-cau-giay
+    - name: Đống Đa
+      district_id: 22
+      slug: quan-dong-da
+    - name: Hà Đông
+      district_id: 23
+      slug: quan-ha-dong
+    - name: Hai Bà Trưng
+      district_id: 24
+      slug: quan-hai-ba-trung
+    - name: Hoàn Kiếm
+      district_id: 25
+      slug: quan-hoan-kiem
+    - name: Hoàng Mai
+      district_id: 26
+      slug: quan-hoang-mai
+    - name: Long Biên
+      district_id: 27
+      slug: quan-long-bien
+    - name: Tây Hồ
+      district_id: 28
+      slug: quan-tay-ho
+    - name: Thanh Xuân
+      district_id: 29
+      slug: quan-thanh-xuan
+    - name: Gia Lâm
+      district_id: 678
+      slug: gia-lam
+    - name: Hoài Đức
+      district_id: 679
+      slug: hoai-duc
+    - name: Thanh Trì
+      district_id: 688
+      slug: thanh-tri
+    - name: Thường Tín
+      district_id: 689
+      slug: thuong-tin
+    - name: Bắc Từ Liêm
+      district_id: 690
+      slug: bac-tu-liem
+    - name: Nam Từ Liêm
+      district_id: 945
+      slug: quan-nam-tu-liem
+
+- id: 219
+  name: Đà Nẵng
+  slug: da-nang
+  districts:
+    - name: Quận Cẩm Lệ
+      district_id: 30
+      slug: quan-cam-le
+    - name: Quận Hải Châu
+      district_id: 31
+      slug: quan-hai-chau
+    - name: Quận Liên Chiểu
+      district_id: 32
+      slug: quan-lien-chieu
+    - name: Quận Ngũ Hành Sơn
+      district_id: 33
+      slug: quan-ngu-hanh-son
+    - name: Quận Sơn Trà
+      district_id: 34
+      slug: quan-son-tra
+    - name: Quận Thanh Khê
+      district_id: 35
+      slug: quan-thanh-khe
+    - name: Hòa Vang
+      district_id: 158
+      slug: hoa-vang
+    - name: Hoàng Sa
+      district_id: 159
+      slug: hoang-sa
+
+- id: 220
+  name: Hải Phòng
+  slug: hai-phong
+  districts:
+    - name: Quận Dương Kinh
+      district_id: 36
+      slug: quan-duong-kinh
+    - name: Quận Đồ Sơn
+      district_id: 37
+      slug: quan-do-son
+    - name: Quận Hải An
+      district_id: 38
+      slug: quan-hai-an
+    - name: Quận Kiến An
+      district_id: 39
+      slug: quan-kien-an
+    - name: Quận Hồng Bàng
+      district_id: 40
+      slug: quan-hong-bang
+    - name: Quận Ngô Quyền
+      district_id: 41
+      slug: quan-ngo-quyen
+    - name: Quận Lê Chân
+      district_id: 42
+      slug: quan-le-chan
+    - name: An Dương
+      district_id: 109
+      slug: an-duong
+    - name: An Lão
+      district_id: 110
+      slug: an-lao
+    - name: Bạch Long Vĩ
+      district_id: 111
+      slug: bach-long-vi
+    - name: Cát Hải
+      district_id: 112
+      slug: cat-hai
+    - name: Kiến Thụy
+      district_id: 113
+      slug: kien-thuy
+    - name: Tiên Lãng
+      district_id: 114
+      slug: tien-lang
+    - name: Vĩnh Bảo
+      district_id: 115
+      slug: vinh-bao
+    - name: Thủy Nguyên
+      district_id: 116
+      slug: thuy-nguyen
+
+- id: 221
+  name: Cần Thơ
+  slug: can-tho
+  districts:
+    - name: Quận Ninh Kiều
+      district_id: 43
+      slug: quan-ninh-kieu
+    - name: Quận Bình Thủy
+      district_id: 44
+      slug: quan-binh-thuy
+    - name: Quận Cái Răng
+      district_id: 45
+      slug: quan-cai-rang
+    - name: Quận Ô Môn
+      district_id: 46
+      slug: quan-o-mon
+    - name: Quận Thốt Nốt
+      district_id: 47
+      slug: quan-thot-not
+    - name: Hưng Phú
+      district_id: 117
+      slug: hung-phu
+    - name: Phong Điền
+      district_id: 118
+      slug: phong-dien
+    - name: Cờ Đỏ
+      district_id: 119
+      slug: co-do
+    - name: Thới Lai
+      district_id: 120
+      slug: thoi-lai
+    - name: Vĩnh Thạnh
+      district_id: 121
+      slug: vinh-thanh
+
+- id: 222
+  name: Đồng Nai
+  slug: dong-nai
+  districts:
+    - name: Định Quán
+      district_id: 48
+      slug: dinh-quan
+    - name: Long Thành
+      district_id: 49
+      slug: long-thanh
+    - name: Xuân Lộc
+      district_id: 50
+      slug: xuan-loc
+    - name: Vĩnh Cửu
+      district_id: 51
+      slug: vinh-cuu
+    - name: Trảng Bom
+      district_id: 52
+      slug: trang-bom
+    - name: Thống Nhất
+      district_id: 53
+      slug: thong-nhat
+    - name: Nhơn Trạch
+      district_id: 55
+      slug: nhon-trach
+    - name: Cẩm Mỹ
+      district_id: 56
+      slug: cam-my
+    - name: Tp. Biên Hòa
+      district_id: 57
+      slug: tp-bien-hoa
+    - name: Thị xã Long Khánh
+      district_id: 66
+      slug: thi-xa-long-khanh
+    - name: Tân Phú
+      district_id: 67
+      slug: tan-phu
+
+- id: 223
+  name: Vũng Tàu
+  slug: vung-tau
+  districts:
+    - name: Tp. Vũng Tàu
+      district_id: 58
+      slug: tp-vung-tau
+    - name: Tp. Bà Rịa
+      district_id: 59
+      slug: tp-ba-ria
+    - name: Huyện Châu Đức
+      district_id: 60
+      slug: huyen-chau-duc
+    - name: Huyện Côn Đảo
+      district_id: 61
+      slug: huyen-con-dao
+    - name: Huyện Long Điền
+      district_id: 62
+      slug: huyen-long-dien
+    - name: Huyện Đất Đỏ
+      district_id: 63
+      slug: huyen-dat-do
+    - name: Huyện Tân Thành
+      district_id: 64
+      slug: huyen-tan-thanh
+    - name: Huyện Xuyên Mộc
+      district_id: 65
+      slug: huyen-xuyen-moc
+    - name: Huyện Long Sơn
+      district_id: 702
+      slug: huyen-long-son
+
+- id: 224
+  name: An Giang
+  slug: an-giang
+  districts:
+    - name: Tp. Long Xuyên
+      district_id: 68
+      slug: tp-long-xuyen
+
+- id: 225
+  name: Bạc Liêu
+  slug: bac-lieu
+  districts:
+    - name: Thị xã Bạc Liêu
+      district_id: 160
+      slug: thi-xa-bac-lieu
+
+- id: 227
+  name: Bắc Giang
+  slug: bac-giang
+  districts:
+    - name: Tp. Bắc Giang
+      district_id: 206
+      slug: tp-bac-giang
+
+- id: 228
+  name: Bắc Ninh
+  slug: bac-ninh
+  districts:
+    - name: Tp. Bắc Ninh
+      district_id: 216
+      slug: tp-bac-ninh
+
+- id: 229
+  name: Bến Tre
+  slug: ben-tre
+  districts:
+    - name: Tp. Bến Tre
+      district_id: 149
+      slug: tp-ben-tre
+
+- id: 230
+  name: Bình Dương
+  slug: binh-duong
+  districts:
+    - name: Thị xã Thủ Dầu Một
+      district_id: 122
+      slug: thi-xa-thu-dau-mot
+    - name: Bến Cát
+      district_id: 123
+      slug: ben-cat
+    - name: Dầu Tiếng
+      district_id: 124
+      slug: dau-tieng
+    - name: Tân Uyên
+      district_id: 125
+      slug: tan-uyen
+    - name: Phú Giáo
+      district_id: 126
+      slug: phu-giao
+    - name: Thuận An
+      district_id: 127
+      slug: thuan-an
+    - name: Dĩ An
+      district_id: 128
+      slug: di-an
+    - name: Bàu Bàng
+      district_id: 824
+      slug: bau-bang
+
+- id: 231
+  name: Bình Định
+  slug: binh-dinh
+  districts:
+    - name: Tp. Qui Nhơn
+      district_id: 167
+      slug: tp-qui-nhon
+
+- id: 232
+  name: Bình Phước
+  slug: binh-phuoc
+  districts:
+    - name: Thị xã Đồng Xoài
+      district_id: 129
+      slug: thi-xa-dong-xoai
+
+- id: 233
+  name: Bình Thuận
+  slug: binh-thuan
+  districts:
+    - name: Tp. Phan Thiết
+      district_id: 139
+      slug: tp-phan-thiet
+
+- id: 234
+  name: Cà Mau
+  slug: ca-mau
+  districts:
+    - name: Tp. Cà Mau
+      district_id: 237
+      slug: tp-ca-mau
+
+- id: 236
+  name: Đắk Lắk
+  slug: dak-lak
+  districts:
+    - name: Tp. Buôn Ma Thuột
+      district_id: 79
+      slug: buon-ma-thuot
+
+- id: 238
+  name: Điện Biên
+  slug: dien-bien
+  districts:
+    - name: Điện Biên Phủ
+      district_id: 347
+      slug: tp-dien-bien-phu
+    - name: Thị xã Mường Lay
+      district_id: 348
+      slug: thi-xa-muong-lay
+    - name: Điện Biên
+      district_id: 349
+      slug: dien-bien
+    - name: Điện Biên Đông
+      district_id: 350
+      slug: dien-bien-dong
+    - name: Mường Ảng
+      district_id: 351
+      slug: muong-ang
+    - name: Mường Chà
+      district_id: 352
+      slug: muong-cha
+    - name: Mường Nhé
+      district_id: 353
+      slug: muong-nhe
+    - name: Tủa Chùa
+      district_id: 354
+      slug: tua-chua
+    - name: Tuần Giáo
+      district_id: 355
+      slug: tuan-giao
+    - name: Nậm Pồ
+      district_id: 1263
+      slug: nam-po
+
+- id: 239
+  name: Đồng Tháp
+  slug: dong-thap
+  districts:
+    - name: Tp. Cao Lãnh
+      district_id: 289
+      slug: tp-cao-lanh
+
+- id: 240
+  name: Gia Lai
+  slug: gia-lai
+  districts:
+    - name: Tp. Pleiku
+      district_id: 322
+      slug: tp-pleiku
+
+- id: 244
+  name: Hải Dương
+  slug: hai-duong
+  districts:
+    - name: Tp. Hải Dương
+      district_id: 310
+      slug: tp-hai-duong
+
+- id: 245
+  name: Hậu Giang
+  slug: hau-giang
+  districts:
+    - name: Thành Phố Vị Thanh
+      district_id: 405
+      slug: thanh-pho-vi-thanh
+
+- id: 248
+  name: Khánh Hoà
+  slug: khanh-hoa
+  districts:
+    - name: Tp. Nha Trang
+      district_id: 386
+      slug: tp-nha-trang
+    - name: Tp. Cam Ranh
+      district_id: 387
+      slug: thi-xa-cam-ranh
+    - name: Vạn Ninh
+      district_id: 388
+      slug: van-ninh
+    - name: Ninh Hòa
+      district_id: 389
+      slug: ninh-hoa
+    - name: Diên Khánh
+      district_id: 390
+      slug: dien-khanh
+    - name: Khánh Vĩnh
+      district_id: 391
+      slug: khanh-vinh
+    - name: Khánh Sơn
+      district_id: 392
+      slug: khanh-son
+    - name: Cam Lâm
+      district_id: 393
+      slug: cam-lam
+    - name: Trường Sa
+      district_id: 394
+      slug: truong-sa
+
+- id: 249
+  name: Kiên Giang
+  slug: kien-giang
+  districts:
+    - name: Tp. Rạch Giá
+      district_id: 94
+      slug: tp-rach-gia
+
+- id: 254
+  name: Lâm Đồng
+  slug: lam-dong
+  districts:
+    - name: Tp. Đà Lạt
+      district_id: 246
+      slug: tp-da-lat
+
+- id: 255
+  name: Long An
+  slug: long-an
+  districts:
+    - name: TP. Tân An
+      district_id: 703
+      slug: tp-tan-an
+
+- id: 256
+  name: Nam Định
+  slug: nam-dinh
+  districts:
+    - name: Tp. Nam Định
+      district_id: 527
+      slug: tp-nam-dinh
+
+- id: 257
+  name: Nghệ An
+  slug: nghe-an
+  districts:
+    - name: Tp. Vinh
+      district_id: 178
+      slug: tp-vinh
+    - name: Thị xã Cửa Lò
+      district_id: 179
+      slug: thi-xa-cua-lo
+    - name: Thị xã Thái Hòa
+      district_id: 180
+      slug: thi-xa-thai-hoa
+    - name: Anh Sơn
+      district_id: 181
+      slug: anh-son
+    - name: Con Cuông
+      district_id: 182
+      slug: con-cuong
+    - name: Diễn Châu
+      district_id: 183
+      slug: dien-chau
+    - name: Đô Lương
+      district_id: 184
+      slug: do-luong
+    - name: Hưng Nguyên
+      district_id: 185
+      slug: hung-nguyen
+    - name: Quỳ Châu
+      district_id: 186
+      slug: quy-chau
+    - name: Kỳ Sơn
+      district_id: 187
+      slug: ky-son
+    - name: Nam Đàn
+      district_id: 188
+      slug: nam-dan
+    - name: Nghi Lộc
+      district_id: 189
+      slug: nghi-loc
+    - name: Nghĩa Đàn
+      district_id: 190
+      slug: nghia-dan
+    - name: Quế Phong
+      district_id: 191
+      slug: que-phong
+    - name: Quỳ Hợp
+      district_id: 192
+      slug: quy-hop
+    - name: Quỳnh Lưu
+      district_id: 193
+      slug: quynh-luu
+    - name: Tân Kỳ
+      district_id: 194
+      slug: tan-ky
+    - name: Thanh Chương
+      district_id: 195
+      slug: thanh-chuong
+    - name: Tương Dương
+      district_id: 196
+      slug: tuong-duong
+    - name: Yên Thành
+      district_id: 197
+      slug: yen-thanh
+
+- id: 259
+  name: Ninh Thuận
+  slug: ninh-thuan
+  districts:
+    - name: Tp. Phan Rang-Tháp Chàm
+      district_id: 621
+      slug: tp-phan-rangthap-cham
+
+- id: 261
+  name: Phú Yên
+  slug: phu-yen
+  districts:
+    - name: Tp. Tuy Hòa
+      district_id: 599
+      slug: tp-tuy-hoa
+
+- id: 262
+  name: Quảng Bình
+  slug: quang-binh
+  districts:
+    - name: Tp. Đồng Hới
+      district_id: 705
+      slug: dong-hoi
+
+- id: 263
+  name: Quảng Nam
+  slug: quang-nam
+  districts:
+    - name: Tp. Hội An
+      district_id: 576
+      slug: tp-hoi-an
+
+- id: 264
+  name: Quảng Ngãi
+  slug: quang-ngai
+  districts:
+    - name: Tp. Quảng Ngãi
+      district_id: 561
+      slug: tp-quang-ngai
+
+- id: 265
+  name: Quảng Ninh
+  slug: quang-ninh
+  districts:
+    - name: Tp. Hạ Long
+      district_id: 547
+      slug: tp-ha-long
+    - name: Tp. Móng Cái
+      district_id: 548
+      slug: tp-mong-cai
+    - name: Tp. Cẩm Phả
+      district_id: 549
+      slug: tp-cam-pha
+    - name: Tp. Uông Bí
+      district_id: 550
+      slug: thi-xa-uong-bi
+    - name: Ba Chẽ
+      district_id: 551
+      slug: ba-che
+    - name: Bình Liêu
+      district_id: 552
+      slug: binh-lieu
+    - name: Cô Tô
+      district_id: 553
+      slug: co-to
+    - name: Đầm Hà
+      district_id: 554
+      slug: dam-ha
+    - name: Đông Triều
+      district_id: 555
+      slug: dong-trieu
+    - name: Hải Hà
+      district_id: 556
+      slug: hai-ha
+    - name: Hoành Bồ
+      district_id: 557
+      slug: hoanh-bo
+    - name: Tiên Yên
+      district_id: 558
+      slug: tien-yen
+    - name: Vân Đồn
+      district_id: 559
+      slug: van-don
+    - name: Thị Xã Quảng Yên
+      district_id: 560
+      slug: Quang-yen
+
+- id: 267
+  name: Sóc Trăng
+  slug: soc-trang
+  districts:
+    - name: Tp. Sóc Trăng
+      district_id: 516
+      slug: tp-soc-trang
+
+- id: 269
+  name: Tây Ninh
+  slug: tay-ninh
+  districts:
+    - name: Thành Phố Tây Ninh
+      district_id: 704
+      slug: thanh-pho-tay-ninh
+
+- id: 271
+  name: Thái Nguyên
+  slug: thai-nguyen
+  districts:
+    - name: Tp. Thái Nguyên
+      district_id: 482
+      slug: tp-thai-nguyen
+
+- id: 272
+  name: Thanh Hoá
+  slug: thanh-hoa
+  districts:
+    - name: Tp. Thanh Hóa
+      district_id: 429
+      slug: tp-thanh-hoa
+
+- id: 273
+  name: Huế
+  slug: hue
+  districts:
+    - name: Tp. Huế
+      district_id: 301
+      slug: tp-hue
+    - name: Thị xã Hương Thủy
+      district_id: 302
+      slug: thi-xa-huong-thuy
+    - name: A Lưới
+      district_id: 303
+      slug: a-luoi
+    - name: Hương Trà
+      district_id: 304
+      slug: huong-tra
+    - name: Nam Đông
+      district_id: 305
+      slug: nam-dong
+    - name: Phong Điền
+      district_id: 306
+      slug: phong-dien
+    - name: Phú Lộc
+      district_id: 307
+      slug: phu-loc
+    - name: Phú Vang
+      district_id: 308
+      slug: phu-vang
+    - name: Quảng Điền
+      district_id: 309
+      slug: quang-dien
+
+- id: 274
+  name: Tiền Giang
+  slug: tien-giang
+  districts:
+    - name: Tp. Mỹ Tho
+      district_id: 271
+      slug: tp-my-tho
+
+- id: 275
+  name: Trà Vinh
+  slug: tra-vinh
+  districts:
+    - name: Tp. Trà Vinh
+      district_id: 421
+      slug: tp-tra-vinh
+
+- id: 277
+  name: Vĩnh Long
+  slug: vinh-long
+  districts:
+    - name: Tp. Vĩnh Long
+      district_id: 465
+      slug: tp-vinh-long
