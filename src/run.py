@@ -1,7 +1,5 @@
 from mcp.server.fastmcp import FastMCP
-from starlette.applications import Starlette
-from starlette.routing import Mount, Host
-from ShopeeFood import ShopeeFood
+from src.ShopeeFood import ShopeeFood
 from typing import List
 import urllib.parse
 
@@ -9,11 +7,9 @@ shopee_food = ShopeeFood()
 
 
 mcp = FastMCP(
-    name="mcp-server",
-
-    
+    name="mcp-shopeefood-vn",
+    port=4003
 )
-
 
 @mcp.resource("resource://locations")
 def get_locations() -> List[str]:
@@ -25,8 +21,17 @@ def get_districts(location: str) ->  List[str]:
 
 
 @mcp.tool()
-def searchFoodShop(location: str, districts: List[str] = [], keyword: str = "", limit: int = 25) ->  List[any]:
-    return [location, districts, keyword, limit]
+async def  search_food_shop(
+    location: str, 
+    districts: List[str] = [], 
+    keyword: str = "", 
+    limit: int = 25) ->  str:
+    return await shopee_food.search(
+        location=urllib.parse.unquote(location),
+        districts=[urllib.parse.unquote(district) for district in districts],
+        keyword=urllib.parse.unquote(keyword),
+        limit=limit
+    )
 
 if __name__ == "__main__":
     mcp.run(transport="sse") 

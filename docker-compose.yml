@@ -1,0 +1,17 @@
+version: '3.9'
+
+services:
+  mcp-shopeefood-vn:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    networks:
+      - local_browser_net
+    env_file:
+      - .env
+    ports:
+      - "${PORT}:4003"
+
+networks:
+  local_browser_net:
+    driver: bridge
