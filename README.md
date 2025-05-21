@@ -1,10 +1,35 @@
 # ShopeeFood MCP Server
 
-<img src="https://github.com/2noScript/mcp-shopeefood-vn/blob/main/docs/img/shopeefoodvn.png?raw=true" width="128">
+<img src="https://github.com/2noScript/mcp-shopeefood-vn/blob/main/docs/img/shopeefoodvn.png?raw=true" >
 
+## Overview
 
-<h2 id="tools">Features</h2>
-<h2 id="tools">Setting</h2>
+MCP Server for interacting with ShopeeFood Vietnam, providing tools to search and retrieve restaurant information.
+
+## Features
+
+- Search restaurants by location and keywords
+- Get list of supported cities and districts
+- Filter results by multiple criteria
+- Real-time data from ShopeeFood
+- Automated browser management
+- Resource-efficient operation
+
+## Installation
+
+### Prerequisites
+
+- Docker and Docker Compose
+- Git
+
+### Using Docker Compose
+
+```bash
+git clone https://github.com/2noScript/mcp-shopeefood-vn.git
+cd mcp-shopeefood-vn
+
+docker-compose up -d --build
+```
 
 ```json
 {
