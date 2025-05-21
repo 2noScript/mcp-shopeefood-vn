@@ -1,5 +1,5 @@
 import yaml
-from typing import Any
+from typing import Any,List
 import unicodedata
 import re
 
@@ -24,3 +24,6 @@ def normalize_text(text: str) -> str:
     text = text.lower()                                              
     text = re.sub(r'\s+', '_', text)                                  
     return text
+
+def view_data(data: List[dict]):
+    return yaml.dump(data, allow_unicode=True, sort_keys=False)

@@ -1,3 +1,4 @@
 camoufox[geoip]>=0.4.11
 pyyaml==6.0.2
 mcp[cli]
+httpx[http2]
