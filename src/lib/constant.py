@@ -1,6 +1,11 @@
 
 DOMAIN ="shopeefood.vn"
 
+GOTO_OPTION={
+  "wait_until": "networkidle",
+  "timeout": 15000
+}
+
 LOCATIONS = {
   'Thành Phố Hồ Chí Minh': 'ho-chi-minh',
   'Hà Nội': 'ha-noi',

@@ -14,6 +14,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 RUN python -m camoufox fetch
 
 COPY src/ /app/src/
-EXPOSE 4003
+EXPOSE 8000
 CMD ["python", "-m", "src.run"]
 

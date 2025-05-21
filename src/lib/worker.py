@@ -24,16 +24,17 @@ async def run_task(handle: Callable, args: List[Any]):
         if _browser is None:
             _browser = await AsyncCamoufox(
                 i_know_what_im_doing=True,
-                screen=_constrains,  # Sửa lỗi tên biến
+                screen=_constrains,  
                 os=('windows', 'macos', 'linux'),
                 block_images=True,
                 humanize=True,
-                headless=True,
+                # headless=True,
                 block_webrtc=True
-            )
+            ).start()
         page = await _browser.new_page()
         try:
             result = await handle(page, *args)
+            print(f"Task hoàn thành: {result}")
             return result
         finally:
             await page.close()

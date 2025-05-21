@@ -10,7 +10,7 @@ services:
     env_file:
       - .env
     ports:
-      - "${PORT}:4003"
+      - "${PORT}:8000"
 
 networks:
   local_browser_net:
