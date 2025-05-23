@@ -6,6 +6,7 @@ import urllib.parse
 
 mcp = FastMCP(
     name="mcp-shopeefood-vn",
+    host="0.0.0.0"
 )
 
 @mcp.resource("resource://locations")
