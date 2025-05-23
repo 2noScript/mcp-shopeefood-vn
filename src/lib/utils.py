@@ -18,6 +18,7 @@ def load_yml(path: str) -> Any:
 
 
 def normalize_text(text: str) -> str:
+
     text = unicodedata.normalize('NFD', text)                         
     text = re.sub(r'[\u0300-\u036f]', '', text)                        
     text = text.replace('đ', 'd').replace('Đ', 'D')                   
@@ -27,3 +28,7 @@ def normalize_text(text: str) -> str:
 
 def view_data(data: List[dict]):
     return yaml.dump(data, allow_unicode=True, sort_keys=False)
+
+
+def decode_url(text: str) -> str:
+    return urllib.parse.unquote(text) if text else text

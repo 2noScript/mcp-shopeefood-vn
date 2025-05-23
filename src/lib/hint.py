@@ -1,19 +1,11 @@
 
-DOMAIN ="shopeefood.vn"
 
-GOTO_OPTION={
-  "wait_until": "networkidle",
-  "timeout": 15000
-}
+class ResourcesHint:
+    LOCATIONS = "Get locations on ShopeeFood."
+    DISTRICTS = "Get list of districts for a specific city/province on ShopeeFood."
 
-
-HINT={
-  RESOURCES:{
-    "LOCATIONS": "Get locations on ShopeeFood.",
-    "DISTRICTS": "Get list of districts for a specific city/province on ShopeeFood."
-  },
-  TOOL:{
-    SEARCH_FOOD_SHOP:"""
+class ToolsHint:
+    SEARCH_FOOD_SHOP = """
     Search for restaurants/food shops on ShopeeFood with filters.
     Tìm kiếm nhà hàng/quán ăn trên ShopeeFood với các bộ lọc.
     Args:
@@ -50,5 +42,7 @@ HINT={
         All input strings are automatically URL decoded to support Vietnamese characters.
         Tất cả chuỗi đầu vào được tự động URL decode để hỗ trợ tiếng Việt có dấu.
     """
-  }
-}
+
+
+class PromptHint:
+    pass
