@@ -45,8 +45,12 @@ async def run_task(handle: Callable, args: List[Any]):
                 os=('windows', 'macos', 'linux'),
                 block_images=True,
                 humanize=True,
-                headless=True,
-                block_webrtc=True
+                # headless=True,
+                block_webrtc=True,
+                config={
+                    'disableTheming': True
+                }
+                
             ).start()
             _cleanup_task = asyncio.create_task(_cleanup_browser())
         

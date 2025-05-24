@@ -1,7 +1,7 @@
 from src.lib.worker import run_task
-from src.lib.utils import view_data
+from src.lib.utils import view_data,decode_url
 from src.lib.constant import GOTO_OPTION, DOMAIN
-from src.resources import find_slug_location
+from src.resources import find_slug_by_city_name
 from typing import List, Dict, Any
 
 async def _extract_shop_info(item: Dict[str, Any]) -> Dict[str, Any]:
@@ -53,7 +53,7 @@ async def _handle(page, url: str) -> str:
     return view_data(results)
 
 async def search(
-    location: str, 
+    city: str, 
     districts: List[str] = [],
     keyword: str = "",
     limit: int = 25
@@ -62,7 +62,7 @@ async def search(
     Search for restaurants on ShopeeFood.
     
     Args:
-        location: City name
+        city: City name
         districts: List of district names to filter
         keyword: Search term
         limit: Maximum number of results
@@ -70,6 +70,8 @@ async def search(
     Returns:
         Formatted table of search results
     """
-    url = f"https://{DOMAIN}/{find_slug_location(location)}/danh-sach-dia-diem-giao-tan-noi?q={keyword}"
+    slug_city=find_slug_by_city_name(decode_url(city))
+    url = f"https://{DOMAIN}/{slug_city}/danh-sach-dia-diem-giao-tan-noi?q={decode_url(keyword)}"
+    print(url)
     return await run_task(_handle, [url])
      

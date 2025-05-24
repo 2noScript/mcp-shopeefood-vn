@@ -1,8 +1,8 @@
 
 
 class ResourcesHint:
-    LOCATIONS = "Get locations on ShopeeFood."
-    DISTRICTS = "Get list of districts for a specific city/province on ShopeeFood."
+    CITIES = "Fetch supported cities on ShopeeFood."
+    DISTRICTS = "Retrieve districts based on cities."
 
 class ToolsHint:
     SEARCH_FOOD_SHOP = """

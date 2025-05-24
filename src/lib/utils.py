@@ -2,7 +2,7 @@ import yaml
 from typing import Any,List
 import unicodedata
 import re
-
+import urllib
 def load_yml(path: str) -> Any:
     try:
         with open(path, "r", encoding="utf-8") as f:
@@ -18,17 +18,17 @@ def load_yml(path: str) -> Any:
 
 
 def normalize_text(text: str) -> str:
+    return re.sub(r'\s+', '_',
+           unicodedata.normalize('NFD', text)
+           .encode('ascii', 'ignore').decode('utf-8')
+           .replace('đ', 'd').replace('Đ', 'D')
+           .lower())
 
-    text = unicodedata.normalize('NFD', text)                         
-    text = re.sub(r'[\u0300-\u036f]', '', text)                        
-    text = text.replace('đ', 'd').replace('Đ', 'D')                   
-    text = text.lower()                                              
-    text = re.sub(r'\s+', '_', text)                                  
-    return text
-
-def view_data(data: List[dict]):
+def view_data(data:List[Any])->str:
     return yaml.dump(data, allow_unicode=True, sort_keys=False)
 
 
 def decode_url(text: str) -> str:
     return urllib.parse.unquote(text) if text else text
+
+

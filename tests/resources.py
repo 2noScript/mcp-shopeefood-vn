@@ -1,5 +1,5 @@
-from src.resources import get_locations,get_districts
+from src.resources import shop_locations,shop_districts_by_location
 
 
-print(get_locations())
-print(get_districts("hồ chí minh"))
+# print(shop_locations())
+print(shop_districts_by_location("hà nội"))
