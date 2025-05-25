@@ -63,3 +63,8 @@ List all information related to the specified keyword.
 <h2 id="tools">Demo with CLINE</h2>
 
 https://github.com/user-attachments/assets/0b4fffce-f86b-4ee3-a696-6383dfcf5051
+
+
+<h2 id="tools">Demo with n8n gemini agent</h2>
+
+<img src="https://github.com/2noScript/mcp-shopeefood-vn/blob/main/docs/img/n8n_gemini_agent.png?raw=true" >
